@@ -1,18 +1,16 @@
 package org.example;
 
-public class App 
-{
+public class App {
 
-    private static void printGoodUniversityCitizens(PersonChecker[] citizens){
+    private static void printGoodUniversityCitizens(PersonChecker[] citizens) {
         for (PersonChecker citizen : citizens) {
-            if (citizen.isOk()){
+            if (citizen.isOk()) {
                 System.out.println(citizen);
             }
         }
     }
 
-    public static void main( String[] args )
-    {
+    public static void main(String[] args) {
         PersonChecker[] citizens = new PersonChecker[6];
 
         citizens[0] = new Student("student1", 22, 2, 3.4F);
@@ -23,6 +21,6 @@ public class App
         citizens[5] = new Student("student4", 22, 2, 3.4F);
 
         printGoodUniversityCitizens(citizens);
-        System.out.println( "Hello World!" );
+        System.out.println("Hello World!");
     }
 }

@@ -1,6 +1,6 @@
 package org.example;
 
-public class Student implements PersonChecker{
+public class Student implements PersonChecker {
 
     private String name;
     private int age;

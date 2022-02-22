@@ -8,12 +8,12 @@ public class Representation {
         this.args = args;
     }
 
-    public void printResult(int result){
+    public void printResult(int result) {
         //kiiras
         System.out.println("Eredmeny: " + result);
     }
 
-    public Operands getOperands(){
+    public Operands getOperands() {
         return new Operands().setA(args[0]).setB(args[1]);
     }
 }

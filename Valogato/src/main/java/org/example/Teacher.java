@@ -1,6 +1,6 @@
 package org.example;
 
-public class Teacher implements PersonChecker{
+public class Teacher implements PersonChecker {
     private String name;
     private int age;
     private float wordInMinutes;
