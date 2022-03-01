@@ -1,5 +1,7 @@
 package org.example;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Student implements PersonChecker {
 
     private String name;
@@ -30,4 +32,6 @@ public class Student implements PersonChecker {
                 ", average=" + average +
                 '}';
     }
+
+
 }
