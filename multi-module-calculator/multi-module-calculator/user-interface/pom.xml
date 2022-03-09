@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>calculator-parent</artifactId>
+    <groupId>hu.meiit.haladojava.calculator</groupId>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>../calculator-parent
+    </relativePath> <!-- Ezzel nem kell minden fordítás előtt telepíteni a parent-et -->
+  </parent>
+
+  <artifactId>console</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>console</name>
+
+  <dependencies>
+    <!--  Belső függőség  -->
+    <dependency>
+      <groupId>hu.meiit.haladojava.calculator</groupId>
+      <artifactId>business-logic</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+
+</project>
