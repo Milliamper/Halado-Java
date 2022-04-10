@@ -11,7 +11,7 @@ public class CsvReaderAdapterImpl implements CsvReaderAdapter {
     private CSVReader reader;
 
     @Override
-    public void setIncludePath(String inputFilePath) throws FileNotFoundException {
+    public void setInputPath(String inputFilePath) throws FileNotFoundException {
         reader = new CSVReader(new FileReader(inputFilePath));
     }
 

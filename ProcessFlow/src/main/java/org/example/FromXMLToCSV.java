@@ -16,7 +16,7 @@ import java.util.List;
 
 public class FromXmlToCsv implements Step {
 
-    private String inputFilePath;
+    private String inputFilePath = "src/points.xml";
     private final String csvFilePath = "src/points.csv";
 
     @Override
@@ -25,13 +25,13 @@ public class FromXmlToCsv implements Step {
     }
 
     @Override
-    public String getOutput() {
-        return csvFilePath;
+    public void getOutput() {
+
     }
 
     @Override
     public void doIt() {
-        Document doc = readXML(inputFilePath);
+        Document doc = readXML(inputFilePath); //
         String outputString = createString(doc);
         writeToCsv(outputString);
     }

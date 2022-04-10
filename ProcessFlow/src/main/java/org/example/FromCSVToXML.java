@@ -23,13 +23,13 @@ public class FromCSVToXML implements Step {
     @Override
     public void setInput(String input) throws FileNotFoundException {
         this.inputFilePath = input;
-        csvReaderAdapter.setIncludePath(inputFilePath);
+        csvReaderAdapter.setInputPath(inputFilePath);
     }
 
     @Override
-    public String getOutput() {
-        return xmlFilePath;
+    public void getOutput() {
     }
+
 
     @Override
     public void doIt() {
