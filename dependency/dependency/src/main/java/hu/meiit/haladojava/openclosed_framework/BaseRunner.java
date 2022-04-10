@@ -6,7 +6,7 @@ import hu.meiit.haladojava.openclosed_framework.user.PartiallyImplementedFlow;
 
 public class BaseRunner {
     public static void main(String[] args) {
-        run(new Flow1());
+        run(new Flow2());
     }
 
     private static void run(BaseFlow baseFlow) {

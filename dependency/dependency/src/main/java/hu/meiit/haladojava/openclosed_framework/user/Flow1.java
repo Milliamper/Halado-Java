@@ -12,6 +12,4 @@ public class Flow1 extends BaseFlow {
     public void step2() {
         System.out.println("Flow1 step2");
     }
-
-    // miért nem látja a run metódust?
 }
