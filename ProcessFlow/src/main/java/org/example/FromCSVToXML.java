@@ -12,12 +12,15 @@ public class FromCSVToXML implements Step {
 
     private String inputFilePath;
     private final String xmlFilePath = "src/points.xml";
-    private final XmlMapper xmlMapper;
-    private final CsvReaderAdapter csvReaderAdapter;
+    private  XmlMapper xmlMapper;
+    private  CsvReaderAdapter csvReaderAdapter;
 
     public FromCSVToXML(XmlMapper xmlMapper, CsvReaderAdapter csvReaderAdapter) {
         this.xmlMapper = xmlMapper;
         this.csvReaderAdapter = csvReaderAdapter;
+    }
+
+    public FromCSVToXML() {
     }
 
     @Override

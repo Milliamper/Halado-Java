@@ -18,8 +18,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ConcreteImplementation extends FlowInterfaceProvider {
+public class ConcreteImplementation /*extends FlowInterfaceProvider */{
 
+    /*
     private final String csvFilePath = "src/points.csv";
     private final String xmlFilePath = "src/points.xml";
 
@@ -222,5 +223,5 @@ public class ConcreteImplementation extends FlowInterfaceProvider {
     private String[] splitByComma(String pair) {
         String[] separated = pair.split(";");
         return separated;
-    }
+    }*/
 }

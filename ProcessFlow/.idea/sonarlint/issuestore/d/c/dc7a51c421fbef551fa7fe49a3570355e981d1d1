@@ -1,0 +1,37 @@
+
+d
+java:S2094"BRemove this empty class, write its code or make it an "interface".(Ê¢®£øÿÿÿÿ8çßÈÉ0
+V	java:S125"<This block of commented-out lines of code should be removed.(¢±²ïûÿÿÿÿ
+O
+java:S1128"2Remove this unused import 'com.opencsv.CSVReader'.(‚á•Æ8íßÈÉ0
+N
+java:S1128"1Remove this unused import 'org.w3c.dom.Document'.(Á§²“8íßÈÉ0
+M
+java:S1128"0Remove this unused import 'org.w3c.dom.Element'.(øÊÎ8íßÈÉ0
+O
+java:S1128"-Remove this unused import 'org.w3c.dom.Node'.(ùŠÿËıÿÿÿÿ8íßÈÉ0
+N
+java:S1128"1Remove this unused import 'org.w3c.dom.NodeList'.(ÂÈÃ‚8îßÈÉ0
+Q
+java:S1128"4Remove this unused import 'org.xml.sax.InputSource'.(”íÍ¤8îßÈÉ0
+`
+java:S1128
+">Remove this unused import 'javax.xml.parsers.DocumentBuilder'.(ƒ”¯¹ùÿÿÿÿ8îßÈÉ0
+g
+java:S1128"ERemove this unused import 'javax.xml.parsers.DocumentBuilderFactory'.(»·±Ñüÿÿÿÿ8îßÈÉ0
+Y
+java:S1128"<Remove this unused import 'javax.xml.transform.Transformer'.(ˆ¬í¿8îßÈÉ0
+`
+java:S1128"CRemove this unused import 'javax.xml.transform.TransformerFactory'.(ğ™“Ø8ïßÈÉ0
+`
+java:S1128">Remove this unused import 'javax.xml.transform.dom.DOMSource'.(¾Ñ¶âùÿÿÿÿ8ïßÈÉ0
+a
+java:S1128"DRemove this unused import 'javax.xml.transform.stream.StreamResult'.(Æ‹ëÿ8ïßÈÉ0
+@
+java:S1128"$Remove this unused import 'java.io'.(¬›ãD8ïßÈÉ0
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ğßÈÉ0
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ğßÈÉ0
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ğßÈÉ0

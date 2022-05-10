@@ -1,0 +1,11 @@
+
+<
+java:S1170"!Make this final field static too.(¢±²ïûÿÿÿÿ
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ú€Âºùÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(­¤¹ãüÿÿÿÿ
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ
+H
+java:S1128"2Remove this unused import 'com.opencsv.CSVWriter'.(¦²Ö
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ

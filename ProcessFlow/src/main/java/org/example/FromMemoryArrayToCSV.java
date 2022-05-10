@@ -33,8 +33,7 @@ public class FromMemoryArrayToCSV implements Step {
     }
 
     public void separateString() {
-        String text = "Kiss Bela;8.0;Nagy Andras;6.0;Kovacs Memory;100000.0";
-        data = new ArrayList<>(Arrays.asList(text.split(";")));
+        data = new ArrayList<>(Arrays.asList(inputString.split(";")));
     }
 
     public void writeMemoryArrayToCSV() throws FileNotFoundException {

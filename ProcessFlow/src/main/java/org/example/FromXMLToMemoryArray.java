@@ -16,6 +16,8 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
+import java.util.function.Consumer;
 import java.util.stream.Stream;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -32,6 +34,7 @@ public class FromXMLToMemoryArray implements Step {
 
     ArrayList<String> name = new ArrayList<>();
     ArrayList<String> point = new ArrayList<>();
+    ArrayList<String> concatenatedResult = new ArrayList<>();
     private String inputFilePath = "src/points.xml";
 
     @Override
@@ -41,9 +44,24 @@ public class FromXMLToMemoryArray implements Step {
 
     @Override
     public void getOutput() {
+//        for (int i = 0; i < name.size(); i++) {
+//            System.out.println(name.get(i) + ":");
+//            System.out.println(point.get(i));
+//        }
+
+//        for (int i = 0; i < concatenatedResult.size(); i++) {
+//            System.out.println(concatenatedResult.get(i));
+//        }
+
+        Consumer<List> print = list -> list.forEach(value -> System.out.println(value));
+        print.accept(concatenatedResult);
+
+    }
+
+    public void concat(List<String> input1, List<String> input2) {
         for (int i = 0; i < name.size(); i++) {
-            System.out.println(name.get(i) + ":");
-            System.out.println(point.get(i));
+            concatenatedResult.add(input1.get(i));
+            concatenatedResult.add(input2.get(i));
         }
     }
 
@@ -56,6 +74,7 @@ public class FromXMLToMemoryArray implements Step {
         Document doc = dBuilder.parse(xmlFile);
         doc.getDocumentElement().normalize();
         Read(doc);
+        concat(name, point);
     }
 
     // xml fájl beolvasása majd az adatok eltárolása egy tömbben, majd a tömb tartalmának kiírása console-ra

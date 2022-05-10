@@ -1,0 +1,12 @@
+
+O
+java:S1481"-Remove this unused "inputXML" local variable.(Ì¹ëÇıÿÿÿÿ8‡ò÷æŠ0
+\
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8µØÿæŠ0
+U
+java:S1128"3Remove this unused import 'java.security.Provider'.(×„áãøÿÿÿÿ8µØÿæŠ0
+Z
+java:S1128	"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8µØÿæŠ0
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Š…´øÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚¨¤şÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ´ô‚

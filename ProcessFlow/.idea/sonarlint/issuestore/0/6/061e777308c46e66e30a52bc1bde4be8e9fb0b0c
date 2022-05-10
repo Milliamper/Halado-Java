@@ -1,0 +1,18 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(ø“¦åùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ñ…‘‡úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¸ü¸øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(İšß¯
+N	java:S106"9Replace this use of System.out or System.err by a logger.(×îÄİ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(§¬»Ô
+S	java:S106"9Replace this use of System.out or System.err by a logger.(«™ŠÛıÿÿÿÿ
+N
+java:S1611"3Remove the parentheses around the "input" parameter(«™ŠÛıÿÿÿÿ
+q
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(ÛËĞ—
+I
+java:S1611"3Remove the parentheses around the "input" parameter(ÛËĞ—
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ıÿô˜ÿÿÿÿÿ
+Q	java:S125&"<This block of commented-out lines of code should be removed.(ÀÅ‰Å
+v
+java:S4276O"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(Ô¢µÉşÿÿÿÿ
