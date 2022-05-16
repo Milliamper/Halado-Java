@@ -6,13 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Halado_Java" />
-        <module name="Valogato" />
+        <module name="Collections" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Halado_Java" target="1.7" />
-      <module name="Valogato" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
