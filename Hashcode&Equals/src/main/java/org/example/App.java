@@ -44,12 +44,6 @@ public class App
 //            System.out.println(element);
 //        }
 
-        String x = "5";
-        int y = 5;
-        String z = String.valueOf(y);
-
-//        System.out.println(x.hashCode());
-//        System.out.println(z.hashCode());
 
         Collection<Integer> list1 = new ArrayList<>();
         Collection<Integer> list2 = new ArrayList<>();
@@ -61,18 +55,12 @@ public class App
         list2.add(1);
         list2.add(2);
         list2.add(3);
-        list2.add(4);
 
-        int a = 1;
-        int a2 = 1;
 
-//        System.out.println( a == a2);
-//        System.out.println(String.valueOf(a).equals(a2));
-
-        System.out.println(list1.hashCode());
-        System.out.println(list2.hashCode());
-        System.out.println(list1 == list2); // memóriahely
-        System.out.println(list1.equals(list2)); // objektum értéket hasonlít össze
+        System.out.println("1. lista hashcode: " + list1.hashCode());
+        System.out.println("2. lista hashcode: " + list2.hashCode());
+        System.out.println(list1 == list2); // ez false - memóriahely
+        System.out.println(list1.equals(list2)); // ez true -  objektum értéket hasonlít össze
 
 //        System.out.println(x == y);
 //        System.out.println(x.equals(y));

@@ -1,0 +1,9 @@
+
+x	java:S116"^Rename this field "COURSE_NUMBER_LIMIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ªÉÅøÿÿÿÿ
+t	java:S116"_Rename this field "STUDENT_NUMBER_LIMIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«áÁÞ
+<
+java:S1170"!Make this final field static too.(„ªÉÅøÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(«áÁÞ
+X
+java:S1612"=Replace this lambda with method reference 'CourseDTO::getId'.(žñŸßøÿÿÿÿ

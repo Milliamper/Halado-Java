@@ -6,8 +6,12 @@ public class Example {
         String a = "200";
         String b = "200";
 
+
+
         if(a.equals(b)){
             System.out.println("Equal variables:");
+            System.out.println(a==b);
+            System.out.println(a.equals(b));
             System.out.println(a.hashCode() + "\n" + b.hashCode());
         }
 
